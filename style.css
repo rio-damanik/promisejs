@@ -1,0 +1,46 @@
+#loading {
+  display: none;
+}
+/* CSS untuk membuat gambar lebih menarik */
+.card-img-top {
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  color: #007bff;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  color: #555;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* CSS untuk judul portal berita */
+.portal-berita-title {
+  background-color: #4cc3ff; /* Warna biru cerah */
+  color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
